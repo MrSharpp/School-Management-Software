@@ -5,8 +5,6 @@
         <!-- Begin Page Content -->
         <div class="container-fluid">
           <?php if($_SESSION['userType'] == 'admin'){ ?>
-          <?php if($_SESSION['userType'] == 'teacher')
-              { ?>
           <form id='addClassForm' method="POST">
             <div class="col-md-4">
             <label>Class Name</label>
@@ -32,7 +30,7 @@
             <input type="submit" name="submit" id='buttonAdd' value="Add" class="btn btn-primary">
             </div>
           </form>
-        <?php }}?>
+        <?php }?>
           <script type="text/javascript">
                  $('.t-datepicker').tDatePicker();
           </script>

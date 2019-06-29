@@ -108,10 +108,10 @@
           <span>Users</span></a>
       </li>
     <?php } ?>
-    <li class="nav-item" id='info'>
-        <a class="nav-link" href="info.php">
+    <li class="nav-item" id='documentation'>
+        <a class="nav-link" href="documentation.php">
           <i class="fas fa-info-circle"></i>
-          <span>Help</span></a>
+          <span>Documentation</span></a>
       </li>
 
   <script type="text/javascript">
